@@ -1,0 +1,29 @@
+# Temporary files
+.*.swp
+*.pyc
+*.pyo
+*.mo
+*.log
+*.DS_Store
+
+# Build-related files
+*.egg
+*.egg-info
+build/
+dist/
+docs/_build
+venv/
+polytranspoc/uploads/
+
+# Coverage & co
+reports/
+.coverage
+
+# Project files
+*.sublime-*
+.tm_properties
+.idea/
+requirements_local.txt
+
+# Settings
+local_settings.ini
