@@ -7,7 +7,7 @@ class Content(models.Model):
     title = models.CharField(max_length=255)
     slug = models.SlugField()
     text = models.TextField()
-    image = models.ImageField(upload_to='polytranspoc/uploads')
+    image = models.ImageField(upload_to='polytranspoc/uploads', blank=True)
 
     def __str__(self):
         return self.title
