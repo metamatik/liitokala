@@ -1,13 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: polytranspoc\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 15:47+0000\n"
-"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: polytranspoc\n"
+"Language: de\n"
+
+#: vinaigrette-deleteme.py:2
+msgid "Ceci est un test"
+msgstr "Das ist ein Test"
+
+#: vinaigrette-deleteme.py:3
+msgid "Ceci est un test. Parfaitement..."
+msgstr "Das ist ein Test. Wirklich..."
 
 #: polytranspoc/settings.py:127
 msgid "English"
@@ -21,14 +27,6 @@ msgstr "Französich"
 msgid "German"
 msgstr "Deutsch"
 
-#: vinaigrette-deleteme.py:2
-msgid "Ceci est un test"
-msgstr "Das ist ein Test"
-
-#: vinaigrette-deleteme.py:3
-msgid "Ceci est un test. Parfaitement..."
-msgstr "Das ist ein Test. Wirklich..."
-
 #: vinaigrette-deleteme.py:4
 msgid "Ceci est un autre test"
 msgstr "Das ist ein anderes Test"
@@ -39,11 +37,9 @@ msgstr "Ja."
 
 #: vinaigrette-deleteme.py:6
 msgid "Oui"
-msgstr ""
+msgstr "Ja"
 
 #: vinaigrette-deleteme.py:7
 msgid "Oui oui oui"
-msgstr ""
+msgstr "Ja ja ja"
 
-#~ msgid "Ceci est une chaine traduite dans le code."
-#~ msgstr "Dies ist ein übersetztes Zeichenfolge im Code."
