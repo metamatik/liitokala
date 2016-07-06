@@ -1,38 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 13:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: polytranspoc\n"
+"Language: en\n"
 
 #: vinaigrette-deleteme.py:2
 msgid "Ceci est un test"
-msgstr ""
+msgstr "This is a test"
 
 #: vinaigrette-deleteme.py:3
 msgid "Ceci est un test. Parfaitement..."
-msgstr ""
+msgstr "This is a test. Absolutely..."
 
 #: polytranspoc/settings.py:127
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: polytranspoc/settings.py:128
 msgid "French"
-msgstr ""
+msgstr "French"
 
 #: polytranspoc/settings.py:129
 msgid "German"
-msgstr ""
+msgstr "German"
+
