@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # third-party apps
+    'django_extensions',
     'vinaigrette',
 
     # project apps
@@ -54,6 +55,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
@@ -120,20 +122,19 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
+LANGUAGE_CODE = 'fr'
+LANGUAGES = [
+    ('en', _('English')),
+    ('fr', _('French')),
+    ('de', _('German')),
+]
 USE_I18N = True
 USE_L10N = True
-LANGUAGE_CODE = 'fr-fr'
-LANGUAGES = [
-    ('en-gb', _('English')),
-    ('fr-fr', _('French')),
-    ('de-de', _('German')),
-]
-
 USE_TZ = True
 TIME_ZONE = 'UTC'
 
 LOCALE_PATHS = (
-    BASE_DIR + '/polytranspoc/locale/',
+    '/home/math/Work/Polyconseil/polytranspoc/polytranspoc/locale/',
 )
 
 # Static files (CSS, JavaScript, Images)

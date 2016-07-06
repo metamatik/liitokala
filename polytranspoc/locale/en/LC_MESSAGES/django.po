@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: polytranspoc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-06 15:38+0000\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+
+#: polytranspoc/settings.py:127
+msgid "English"
+msgstr "English"
+
+#: polytranspoc/settings.py:128
+msgid "French"
+msgstr "French"
+
+#: polytranspoc/settings.py:129
+msgid "German"
+msgstr "German"
+
+#: vinaigrette-deleteme.py:2
+msgid "Ceci est un test"
+msgstr "This is a test"
+
+#: vinaigrette-deleteme.py:3
+msgid "Ceci est un test. Parfaitement..."
+msgstr "This is a test. Absolutely..."
+
+#: vinaigrette-deleteme.py:4
+msgid "Ceci est un autre test"
+msgstr "This is another test"
+
+#: vinaigrette-deleteme.py:5
+msgid "Yep."
+msgstr "Yup."
+
+#~ msgid "Ceci est une chaine traduite dans le code."
+#~ msgstr "This is a string that is translated in the code."
