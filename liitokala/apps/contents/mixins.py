@@ -2,7 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone, translation
 
-# from dirtyfields import DirtyFieldsMixin
+from model_utils import FieldTracker
 
 
 """
@@ -31,25 +31,23 @@ class SearchableQuerySet(models.QuerySet):
         return self.filter(_needs_reindexing=False)
 
 
-class Searchable(models.Model): # , DirtyFieldsMixin):
-
+class Searchable(models.Model):
     _search_document = models.TextField(blank=True)
     _last_reindexed = models.DateTimeField(blank=True, null=True)
     _needs_reindexing = models.BooleanField(default=True)
 
     objects = SearchableQuerySet.as_manager()
 
-    # Modifying these fields will mark this object as needing reindexing.
     _tracked_fields = []
 
     class Meta:
         abstract = True
 
-    # def save(self, *args, **kwargs):
-    #     dirty_fields = self.get_dirty_fields().keys()
-    #     if set(dirty_fields).intersection(self._tracked_fields):
-    #         self._needs_reindexing = True
-    #     super().save(*args, **kwargs)
+    def save(self, *args, **kwargs):
+        dirty_fields = self._tracker.changed().keys()
+        if set(dirty_fields).intersection(self._tracked_fields):
+            self._needs_reindexing = True
+        super().save(*args, **kwargs)
 
     def _build_search_document(self):
         return NotImplemented

@@ -1,6 +1,6 @@
 Django>=1.10b1
-django-dirtyfields==1.0
 django-extensions==1.6.7
+django-model-utils==2.5
 django-vinaigrette==1.0.1
 ipython==4.2.1
 Pillow==3.3.0
