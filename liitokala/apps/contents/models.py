@@ -10,7 +10,7 @@ class Content(mixins.MultilingualSearchable):
     slug = models.SlugField()
     text = models.TextField(blank=True)
     notes = models.TextField(blank=True)
-    image = models.ImageField(upload_to='polytranspoc/uploads', blank=True)
+    image = models.ImageField(upload_to='liitokala/uploads', blank=True)
 
     _translatable_fields = ['title', 'text']
     _tracked_fields = _translatable_fields

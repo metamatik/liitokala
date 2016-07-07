@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=255)),
                 ('slug', models.SlugField()),
                 ('text', models.TextField(blank=True)),
-                ('image', models.ImageField(blank=True, upload_to='polytranspoc/uploads')),
+                ('image', models.ImageField(blank=True, upload_to='liitokala/uploads')),
                 ('_last_reindexed', models.DateTimeField(blank=True, null=True)),
                 ('_search_document', models.TextField(blank=True)),
                 ('_needs_reindexing', models.BooleanField(default=True)),

@@ -13,7 +13,7 @@ build/
 dist/
 docs/_build
 venv/
-polytranspoc/uploads/
+liitokala/uploads/
 
 # Coverage & co
 reports/

@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: polytranspoc\n"
+"Project-Id-Version: liitokala\n"
 "Language: de\n"
 
 #: vinaigrette-deleteme.py:2
@@ -15,15 +15,15 @@ msgstr "Das ist ein Test"
 msgid "Ceci est un test. Parfaitement..."
 msgstr "Das ist ein Test. Wirklich..."
 
-#: polytranspoc/settings.py:127
+#: liitokala/settings.py:127
 msgid "English"
 msgstr "Englisch"
 
-#: polytranspoc/settings.py:128
+#: liitokala/settings.py:128
 msgid "French"
 msgstr "Französich"
 
-#: polytranspoc/settings.py:129
+#: liitokala/settings.py:129
 msgid "German"
 msgstr "Deutsch"
 

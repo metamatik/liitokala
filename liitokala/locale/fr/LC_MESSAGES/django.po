@@ -1,69 +1,70 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: liitokala\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-06 16:18+0000\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: polytranspoc\n"
-"Language: en\n"
+
+#: liitokala/settings.py:127
+msgid "English"
+msgstr "Anglais"
+
+#: liitokala/settings.py:128
+msgid "French"
+msgstr "Français"
+
+#: liitokala/settings.py:129
+msgid "German"
+msgstr "Allemand"
 
 #: vinaigrette-deleteme.py:2
 msgid "Ceci est un test"
-msgstr "This is a test"
+msgstr "Ceci est un test"
 
 #: vinaigrette-deleteme.py:3
 msgid "Ceci est un test. Parfaitement..."
-msgstr "This is a test. Absolutely..."
-
-#: polytranspoc/settings.py:127
-msgid "English"
-msgstr "English"
-
-#: polytranspoc/settings.py:128
-msgid "French"
-msgstr "French"
-
-#: polytranspoc/settings.py:129
-msgid "German"
-msgstr "German"
+msgstr "Ceci est un test. Parfaitement..."
 
 #: vinaigrette-deleteme.py:4
 msgid "Ceci est un autre test"
-msgstr "This is another test -- and another translation."
+msgstr "Ceci est un autre test"
 
 #: vinaigrette-deleteme.py:5
 msgid "Yep."
-msgstr "Yup."
+msgstr "Yep."
 
 #: vinaigrette-deleteme.py:6
 msgid "Oui"
-msgstr "Yes"
+msgstr "Oui"
 
 #: vinaigrette-deleteme.py:7
 msgid "Oui oui oui"
-msgstr "Yes yes yes"
+msgstr "Oui oui oui"
 
 #: vinaigrette-deleteme.py:8
 msgid "Non"
-msgstr "No"
+msgstr "Non"
 
 #: vinaigrette-deleteme.py:9
 msgid "Non non non"
-msgstr "No no no"
+msgstr "Non non non"
 
 #: vinaigrette-deleteme.py:10
 msgid "Bonjour"
-msgstr "Hello"
+msgstr "Bonjour"
 
 #: vinaigrette-deleteme.py:11
 msgid "Comment ça va ?"
-msgstr "How are you?"
+msgstr "Comment ça va ?"
 
 #: vinaigrette-deleteme.py:12
 msgid "Pourquoi"
-msgstr "Why"
+msgstr ""
 
 #: vinaigrette-deleteme.py:13
 msgid "Oui, pourquoi ?"
-msgstr "Yes, why?"
-
+msgstr ""
