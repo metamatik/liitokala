@@ -135,7 +135,7 @@ USE_TZ = True
 TIME_ZONE = 'UTC'
 
 LOCALE_PATHS = (
-    '/home/math/Work/Polyconseil/liitokala/liitokala/locale/',
+    BASE_DIR + '/liitokala/locale/',
 )
 
 # Static files (CSS, JavaScript, Images)
