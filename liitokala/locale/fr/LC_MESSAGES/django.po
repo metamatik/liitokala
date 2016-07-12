@@ -1,23 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: liitokala\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-12 09:32+0000\n"
-"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
+"Project-Id-Version: liitokala\n"
+"Language: fr\n"
 
 #: vinaigrette-deleteme.py:2
-msgid "Avion"
-msgstr ""
+msgid "Ceci est un test"
+msgstr "Ceci est un test"
 
 #: vinaigrette-deleteme.py:3
-#, fuzzy
-#| msgid "Ceci est un test"
-msgid "Ceci est un avion."
-msgstr "Ceci est un test"
+msgid "Ceci est un test. Parfaitement..."
+msgstr "Ceci est un test. Parfaitement..."
 
 #: liitokala/settings.py:128
 msgid "English"
@@ -31,29 +27,59 @@ msgstr "Français"
 msgid "German"
 msgstr "Allemand"
 
-#~ msgid "Ceci est un test. Parfaitement..."
-#~ msgstr "Ceci est un test. Parfaitement..."
+#: vinaigrette-deleteme.py:4
+msgid "Ceci est un autre test"
+msgstr "Ceci est un autre test"
 
-#~ msgid "Ceci est un autre test"
-#~ msgstr "Ceci est un autre test"
+#: vinaigrette-deleteme.py:5
+msgid "Yep."
+msgstr "Yep."
 
-#~ msgid "Yep."
-#~ msgstr "Yep."
+#: vinaigrette-deleteme.py:6
+msgid "Oui"
+msgstr "Oui"
 
-#~ msgid "Oui"
-#~ msgstr "Oui"
+#: vinaigrette-deleteme.py:7
+msgid "Oui oui oui"
+msgstr "Oui oui oui"
 
-#~ msgid "Oui oui oui"
-#~ msgstr "Oui oui oui"
+#: vinaigrette-deleteme.py:8
+msgid "Non"
+msgstr "Non"
 
-#~ msgid "Non"
-#~ msgstr "Non"
+#: vinaigrette-deleteme.py:9
+msgid "Non non non"
+msgstr "Non non non"
 
-#~ msgid "Non non non"
-#~ msgstr "Non non non"
+#: vinaigrette-deleteme.py:10
+msgid "Bonjour"
+msgstr "Bonjour"
 
-#~ msgid "Bonjour"
-#~ msgstr "Bonjour"
+#: vinaigrette-deleteme.py:11
+msgid "Comment ça va ?"
+msgstr "Comment ça va ?"
 
-#~ msgid "Comment ça va ?"
-#~ msgstr "Comment ça va ?"
+#: vinaigrette-deleteme.py:12
+msgid "Pourquoi"
+msgstr ""
+
+#: vinaigrette-deleteme.py:13
+msgid "Oui, pourquoi ?"
+msgstr ""
+
+#: vinaigrette-deleteme.py:2
+msgid "Girafe"
+msgstr ""
+
+#: vinaigrette-deleteme.py:3
+msgid "La girafe (Giraffa camelopardalis) est une espèce de mammifère ongulé artiodactyle et ruminant, vivant dans les savanes africaines et répandue du Tchad jusqu'en Afrique du Sud. Le mot girafe vient de l'arabe زرافة, zarāfah. Anciennement appelée caméléopard, du latin camelopardus1, contraction de camelus (chameau) en raison du long cou et de pardus (léopard) en raison des taches recouvrant son corps. Après des millions d'années d'évolution, la girafe a acquis une anatomie unique avec un cou particulièrement allongé qui lui permet notamment de brouter la cime des arbres."
+msgstr ""
+
+#: vinaigrette-deleteme.py:2
+msgid "Avion"
+msgstr ""
+
+#: vinaigrette-deleteme.py:3
+msgid "Ceci est un avion."
+msgstr ""
+
