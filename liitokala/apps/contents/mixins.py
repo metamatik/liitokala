@@ -37,7 +37,8 @@ class Searchable(models.Model): # , DirtyFieldsMixin):
     _last_reindexed = models.DateTimeField(blank=True, null=True)
     _needs_reindexing = models.BooleanField(default=True)
 
-    objects = SearchableQuerySet.as_manager()
+    objects = models.Manager()
+    searchable = SearchableQuerySet.as_manager()
 
     # Modifying these fields will mark this object as needing reindexing.
     _tracked_fields = []
